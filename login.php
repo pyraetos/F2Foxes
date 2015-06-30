@@ -1,3 +1,7 @@
+<?php
+    $connection = mysql_connect("localhost","user","password") or die("Couldn't connect to database");
+?>
+
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -6,7 +10,7 @@
 -->
 <html>
 	<head>
-		<title>events</title>
+		<title>log in</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -67,12 +71,31 @@
 								<div class="row">
 									<div class="8u 12u(mobile)">
 									</div>
-                                    <h1> Description of the past of fox company</h1>
-                                    <p> Include some nice pictures of the crest and some current pictures</p>
+                                    <h1>Log In</h1>
+                                    <form action= "" method="post">
+                                    <table>
+                                        <tr>
+                                        <td>
+                                            <b>Username:</b>
+                                        </td>
+                                        <td>
+                                            <input type="text" name="username"/>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                        <td>
+                                            <b>Password:</b>
+                                        </td>
+                                        <td>
+                                            <input type="password" name="password"/>
+                                        </td>
+                                        </tr>
+                                        
+                                    </table>
+                                    </form>
 									<div class="4u 12u(mobile)">
-
-
 									</div>
+
 								</div>
 							</div>
 						</div>
