@@ -1,7 +1,6 @@
 <?php
-    $connection = new mysqli("localhost","user","password") or die("Couldn't connect to database");
-?>
 
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -10,7 +9,7 @@
 -->
 <html>
 	<head>
-		<title>log in</title>
+		<title>sign up</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -21,10 +20,9 @@
 	<body class="no-sidebar">
 		<div id="page-wrapper">
 
-             <!--header-->
+			 <!--header-->
             <?php include 'header.php'; ?>
             <!--end of header-->
-
 
 			<!-- Main Wrapper -->
 				<div id="main-wrapper">
@@ -32,23 +30,7 @@
 						<div class="inner">
 							<div class="container">
 								<div id="content">
-                                     <!--Prevents Mobile Nav Bar From covering up content-->
-                                    <br></br>
-                                    <h1>Please Log In</h1>
-                                    <form action= "login_submit.php" method="post">
-                                    <p>
-                                    <label for="user">Username</label>
-                                    <input type="text" id="user" name="user" value="" maxlength="10" />
-                                    </p>
-                                    <p>
-                                    <label for="pass">Password</label>
-                                    <input type="password" id="pass" name="pass" value="" maxlength="10" />
-                                    </p>
-                                    <p>
-                                    <input type="submit" value="Login" />
-                                    </p>
-                                    </fieldset>
-                                    </form>
+
 
 								</div>
 							</div>
@@ -59,11 +41,14 @@
 							<div class="container">
 								<div class="row">
 									<div class="8u 12u(mobile)">
+                                        <h1> Sign up</h1>
 									</div>
-                                    
+                                    <h1> Needs to have a way to sign up</h1>
+                                    <p> Include some nice pictures of the crest and some current pictures</p>
 									<div class="4u 12u(mobile)">
-									</div>
 
+
+									</div>
 								</div>
 							</div>
 						</div>
@@ -76,11 +61,63 @@
 						<div class="row">
 							<div class="3u 12u(mobile)">
 
+								<!-- Links -->
+									<section>
+										<h2>Filler Links</h2>
+										<ul class="divided">
+											<li><a href="#">Quam turpis feugiat dolor</a></li>
+											<li><a href="#">Amet ornare in hendrerit </a></li>
+											<li><a href="#">Semper mod quisturpis nisi</a></li>
+											<li><a href="#">Consequat etiam phasellus</a></li>
+											<li><a href="#">Amet turpis, feugiat et</a></li>
+											<li><a href="#">Ornare hendrerit lectus</a></li>
+											<li><a href="#">Semper mod quis et dolore</a></li>
+											<li><a href="#">Amet ornare in hendrerit</a></li>
+											<li><a href="#">Consequat lorem phasellus</a></li>
+											<li><a href="#">Amet turpis, feugiat amet</a></li>
+											<li><a href="#">Semper mod quisturpis</a></li>
+										</ul>
+									</section>
+
 							</div>
 							<div class="3u 12u(mobile)">
 
+								<!-- Links -->
+									<section>
+										<h2>More Filler</h2>
+										<ul class="divided">
+											<li><a href="#">Quam turpis feugiat dolor</a></li>
+											<li><a href="#">Amet ornare in in lectus</a></li>
+											<li><a href="#">Semper mod sed tempus nisi</a></li>
+											<li><a href="#">Consequat etiam phasellus</a></li>
+										</ul>
+									</section>
+
+								<!-- Links -->
+									<section>
+										<h2>Even More Filler</h2>
+										<ul class="divided">
+											<li><a href="#">Quam turpis feugiat dolor</a></li>
+											<li><a href="#">Amet ornare hendrerit lectus</a></li>
+											<li><a href="#">Semper quisturpis nisi</a></li>
+											<li><a href="#">Consequat lorem phasellus</a></li>
+										</ul>
+									</section>
+
 							</div>
 							<div class="6u 12u(mobile)">
+
+								<!-- About -->
+									<section>
+										<h2><strong>ZeroFour</strong> by HTML5 UP</h2>
+										<p>Hi! This is <strong>ZeroFour</strong>, a free, fully responsive HTML5 site
+										template by <a href="http://n33.co/">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>.
+										It's <a href="http://html5up.net/license/">Creative Commons Attribution</a>
+										licensed so use it for any personal or commercial project (just credit us
+										for the design!).</p>
+										<a href="#" class="button alt icon fa-arrow-circle-right">Learn More</a>
+									</section>
+
 								<!-- Contact -->
 									<section>
 										<h2>Get in touch</h2>
@@ -112,9 +149,9 @@
 												</div>
 											</div>
 										</div>
-									</section> 
+									</section>
 
-							</div> 
+							</div>
 						</div>
 						<div class="row">
 							<div class="12u">
