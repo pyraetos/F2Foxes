@@ -36,8 +36,7 @@
 										<nav id="nav">
 											<ul>
 												<li class="current_page_item"><a href="index.html">Home</a></li>
-												
-												
+													
                                                 <li><a href="about.html">About Us</a></li>
                                                 <li><a href="events.html">Events</a></li>
                                                 <li><a href="recruiting.html">Join F-2</a></li>
@@ -59,7 +58,20 @@
 						<div class="inner">
 							<div class="container">
 								<div id="content">
-
+                                    <form action= "login_submit.php" method="post">
+                                    <p>
+                                    <label for="user">Username</label>
+                                    <input type="text" id="user" name="user" value="" maxlength="10" />
+                                    </p>
+                                    <p>
+                                    <label for="pass">Password</label>
+                                    <input type="password" id="pass" name="pass" value="" maxlength="10" />
+                                    </p>
+                                    <p>
+                                    <input type="submit" value="Login" />
+                                    </p>
+                                    </fieldset>
+                                    </form>
 
 								</div>
 							</div>
@@ -71,28 +83,7 @@
 								<div class="row">
 									<div class="8u 12u(mobile)">
 									</div>
-                                    <h1>Log In</h1>
-                                    <form action= "" method="post">
-                                    <table>
-                                        <tr>
-                                        <td>
-                                            <b>Username:</b>
-                                        </td>
-                                        <td>
-                                            <input type="text" name="username"/>
-                                        </td>
-                                        </tr>
-                                        <tr>
-                                        <td>
-                                            <b>Password:</b>
-                                        </td>
-                                        <td>
-                                            <input type="password" name="password"/>
-                                        </td>
-                                        </tr>
-                                        
-                                    </table>
-                                    </form>
+                                    
 									<div class="4u 12u(mobile)">
 									</div>
 
@@ -108,63 +99,11 @@
 						<div class="row">
 							<div class="3u 12u(mobile)">
 
-								<!-- Links -->
-									<section>
-										<h2>Filler Links</h2>
-										<ul class="divided">
-											<li><a href="#">Quam turpis feugiat dolor</a></li>
-											<li><a href="#">Amet ornare in hendrerit </a></li>
-											<li><a href="#">Semper mod quisturpis nisi</a></li>
-											<li><a href="#">Consequat etiam phasellus</a></li>
-											<li><a href="#">Amet turpis, feugiat et</a></li>
-											<li><a href="#">Ornare hendrerit lectus</a></li>
-											<li><a href="#">Semper mod quis et dolore</a></li>
-											<li><a href="#">Amet ornare in hendrerit</a></li>
-											<li><a href="#">Consequat lorem phasellus</a></li>
-											<li><a href="#">Amet turpis, feugiat amet</a></li>
-											<li><a href="#">Semper mod quisturpis</a></li>
-										</ul>
-									</section>
-
 							</div>
 							<div class="3u 12u(mobile)">
 
-								<!-- Links -->
-									<section>
-										<h2>More Filler</h2>
-										<ul class="divided">
-											<li><a href="#">Quam turpis feugiat dolor</a></li>
-											<li><a href="#">Amet ornare in in lectus</a></li>
-											<li><a href="#">Semper mod sed tempus nisi</a></li>
-											<li><a href="#">Consequat etiam phasellus</a></li>
-										</ul>
-									</section>
-
-								<!-- Links -->
-									<section>
-										<h2>Even More Filler</h2>
-										<ul class="divided">
-											<li><a href="#">Quam turpis feugiat dolor</a></li>
-											<li><a href="#">Amet ornare hendrerit lectus</a></li>
-											<li><a href="#">Semper quisturpis nisi</a></li>
-											<li><a href="#">Consequat lorem phasellus</a></li>
-										</ul>
-									</section>
-
 							</div>
 							<div class="6u 12u(mobile)">
-
-								<!-- About -->
-									<section>
-										<h2><strong>ZeroFour</strong> by HTML5 UP</h2>
-										<p>Hi! This is <strong>ZeroFour</strong>, a free, fully responsive HTML5 site
-										template by <a href="http://n33.co/">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>.
-										It's <a href="http://html5up.net/license/">Creative Commons Attribution</a>
-										licensed so use it for any personal or commercial project (just credit us
-										for the design!).</p>
-										<a href="#" class="button alt icon fa-arrow-circle-right">Learn More</a>
-									</section>
-
 								<!-- Contact -->
 									<section>
 										<h2>Get in touch</h2>
@@ -196,9 +135,9 @@
 												</div>
 											</div>
 										</div>
-									</section>
+									</section> 
 
-							</div>
+							</div> 
 						</div>
 						<div class="row">
 							<div class="12u">
