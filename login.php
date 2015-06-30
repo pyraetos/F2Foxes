@@ -58,6 +58,9 @@
 						<div class="inner">
 							<div class="container">
 								<div id="content">
+                                     <!--Prevents Mobile Nav Bar From covering up content-->
+                                    <br></br>
+                                    <h1>Please Log In</h1>
                                     <form action= "login_submit.php" method="post">
                                     <p>
                                     <label for="user">Username</label>
