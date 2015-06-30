@@ -253,7 +253,7 @@
 	}
 
 	.row.uniform.\31 50\25 > * {
-		padding: 60px 0 0 60px;
+		padding: 10px 0 0 10px;
 	}
 
 	.row.uniform.\31 50\25 {
@@ -1974,7 +1974,7 @@
 				width: 940px;
 				margin: 0 auto;
 				overflow: hidden;
-				padding: 9em 0 6em 0;
+				padding: 1em 0 1em 0;
 			}
 
 				#banner p {
@@ -2008,11 +2008,11 @@
 
 			#header-wrapper {
 				padding: 2em 0 0 0;
-				height: 11em;
+				height: 5em;
 			}
 
 			body.homepage #header-wrapper {
-				height: 36em;
+				height: 21em;
 			}
 
 			#footer-wrapper {
