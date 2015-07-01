@@ -15,7 +15,8 @@
 									<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li class="current_page_item"><a href="index.php">Home</a></li>
+                                                <!--clas current_page_item to be adjusted once all pages are complete-->
+												<li ><a href="index.php">Home</a></li>
 												
 												
                                                 <li><a href="about.php">About Us</a></li>
@@ -36,7 +37,7 @@
 							<div id="banner">
 								<h2><strong>Howdy!</strong> Welcome to the company F-2 website</h2>
 								<p>Does this statement make you want to click the big shiny button?</p>
-								<a href="#" class="button big icon fa-check-circle">Log In</a>
+								<a href="login.php" class="button big icon fa-check-circle">Log In</a>
 							</div>
 
 					</div>
