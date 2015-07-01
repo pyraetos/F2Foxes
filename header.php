@@ -2,7 +2,8 @@
 
 ?>
 <!-- Header -->
-				<div id="header-wrapper">
+	<?php ?>
+                <div id="header-wrapper">
 					<div class="container">
 
 						<!-- Header -->
@@ -33,3 +34,4 @@
 							</header>
 					</div>
 				</div>
+<?php ?>
