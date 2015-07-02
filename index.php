@@ -21,7 +21,7 @@
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
-            <?php include 'home/header.php'; ?>
+            <?php include 'header.php'; ?>
 			<!-- Main Wrapper -->
 				<div id="main-wrapper">
 					<div class="wrapper style1">
