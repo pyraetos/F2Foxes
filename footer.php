@@ -11,7 +11,7 @@
 								        <!-- Links -->
 									        <section>
 										        <h2>Resources for Cadets</h2>
-										        <ul class="divided">
+										        <ul class="divided" >
 											        <li><a href="https://howdy.tamu.edu/cp/home/displaylogin">Howdy</a></li>
 											        <li><a href="https://assembly.tamu.edu/Login.aspx?ReturnUrl=%2f">Cadet Management System(CMS) </a></li>
 											        <li><a href="https://cadets.tamu.edu/default.aspx">Cadets Intranet</a></li>

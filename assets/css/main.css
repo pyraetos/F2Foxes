@@ -86,7 +86,6 @@
 	.container {
 		width: 960px;
 	}
-
 	@media screen and (min-width: 737px) {
 
 		.container.\31 25\25 {
@@ -641,11 +640,11 @@
 	@media screen and (min-width: 737px) and (max-width: 1200px) {
 
 		.row > * {
-			padding: 35px 0 0 35px;
+			padding: 10px 30px 10px 30px;
 		}
 
 		.row {
-			margin: -35px 0 -1px -35px;
+			margin: -10px 0 -1px -10px;
 		}
 
 		.row.uniform > * {
@@ -1197,7 +1196,7 @@
 /* Section/Article */
 
 	section, article {
-		margin-bottom: 5em;
+		margin-bottom: 1em;
 	}
 
 	section > :last-child,
@@ -1247,14 +1246,18 @@
 		}
 
 		header.major h2, header.major h3 {
-			margin: 0 0 1.2em 0;
+			margin: 0 0 .5em 0;
 		}
 
 		header.major p {
-			margin: 0 0 1.5em 0;
+			margin: 0 0 0 0;
 			position: relative;
 			top: -1em;
 		}
+    header.major h2 img{
+    height: 50px;
+    width: auto;
+    }   
 
 /* Forms */
 
@@ -1549,8 +1552,8 @@
 	ul.menu li {
 		border-left: solid 1px #eee;
 		display: inline-block;
-		padding: 0 0 0 1em;
-		margin: 0 0 0 1em;
+		padding: 0 0 0 .1em;
+		margin: 0 0 0 0em;
 	}
 
 		ul.menu li:first-child {
@@ -1561,8 +1564,9 @@
 
 	ul.divided li {
 		border-top: solid 1px #eee;
-		padding: 0.5em 0 0 0;
-		margin: 0.5em 0 0 0;
+		padding: 0.1em 0 0 0;
+		margin: 0 0 0 0;
+        color: #4091bf; /*#404248;*/
 	}
 
 		ul.divided li:first-child {
@@ -1576,7 +1580,7 @@
 }
 li a:hover{
     background: #7d1321;
-    color: #c8b629;
+    color: #4091bf;
     box-shadow: inset 0 3px 5px rgba(0,0,0,.25);
 }
 
@@ -1737,6 +1741,7 @@ li a:hover{
         background-position: center;
         background-repeat: no-repeat;
 		background-size: auto, cover;
+        padding: 1em;
 	}
 
 	#main-wrapper {
@@ -1804,7 +1809,7 @@ li a:hover{
 		}
 
 		#footer a {
-			color: #acb2bf;
+			color: /*#acb2bf;*/#fb0707;/*changes the color for the links on the footer*/
 		}
 
 		#footer .button.alt {
@@ -1866,11 +1871,11 @@ li a:hover{
 			}
 
 			.wrapper {
-				padding: 1em 0 1em 0;
+				padding: .1em 0 .2em 0;
 			}
 
 			#footer-wrapper {
-				padding: 1em 0 1em 0;
+				padding: .1em 0 .1em 0;
 			}
 
 		/* Header */
@@ -2031,11 +2036,11 @@ li a:hover{
 			}
 
 			body.homepage #header-wrapper {
-				height: 21em;
+				height: 7em;
 			}
 
 			#footer-wrapper {
-				padding: 1em 0 1em 0;
+				padding: .2em 0 .2em 0;
 			}
 
 			.wrapper {
@@ -2060,6 +2065,9 @@ li a:hover{
 					line-height: 1.75em;
 					letter-spacing: 0.04em;
 				}
+        section{
+        margin-bottom: 1em;
+	}
 
 	}
 
@@ -2081,6 +2089,7 @@ li a:hover{
 				line-height: 1.75em;
 				font-size: 10pt;
 				letter-spacing: 0;
+                margin: 4em 0 0 0;
 			}
 
 			h2, h3, h4, h5, h6 {
@@ -2095,9 +2104,8 @@ li a:hover{
 
 			section, article {
 				clear: both;
-				margin-bottom: 4em !important;
+				margin-bottom: 1em !important;
 			}
-
 		/* Image */
 
 			.image.left {
@@ -2384,4 +2392,3 @@ li a:hover{
 			}
 
 	   }
-    
