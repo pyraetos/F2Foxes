@@ -13,13 +13,13 @@
 		<div id="page-wrapper">
 
             <!--header-->
-            <?php include 'header.php'; ?>
+            <?php include 'pagecontent/header.php'; ?>
 
             <!--Main Content-- link to about.php it is located in the pagecontent folder-->
             <?php include 'pagecontent/login_submit.php'?>
             
 			<!-- Footer  -->
-            <?php include 'footer.php'; ?>
+            <?php include 'pagecontent/footer.php'; ?>
 				
 
 		</div>
