@@ -1,13 +1,7 @@
 <?php
 
 ?>
-
 <!DOCTYPE HTML>
-<!--
-	ZeroFour by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>events</title>
@@ -20,56 +14,21 @@
 	</head>
 	<body class="no-sidebar">
 		<div id="page-wrapper">
+
             <!--header-->
-            <?php include 'header.php'; ?>
-            <!--end of header-->
-			<!-- Main Wrapper -->
-				<div id="main-wrapper">
-					<div class="wrapper style2">
-						<div class="inner">
-							<div class="container">
-								<div id="content">
+            <?php include 'pagecontent/header.php'; ?>
 
-
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="wrapper style3">
-						<div class="inner">
-							<div class="container">
-								<div class="row">
-									<div class="8u 12u(mobile)">
-									</div>
-                                    <h1> Goals Chain of Command and maybe some other stuff</h1>
-                                    <p> Include some nice pictures of the crest and some current pictures</p>
-									<div class="4u 12u(mobile)">
-
-
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			
+            <!--Main Content-- link to about.php it is located in the pagecontent folder-->
+            <?php include 'pagecontent/about.php'?>
+            
 			<!-- Footer  -->
-            <?php include 'footer.php'; ?>
-            <!--end of Footer-->
+            <?php include 'pagecontent/footer.php'; ?>
 				
 
 		</div>
 
-		<!-- Scripts -->
-
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+		<!--Script-- can be found in the pagecontent folder script.php-->
+        <?php include 'pagecontent/script'?>
 
 	</body>
 </html>

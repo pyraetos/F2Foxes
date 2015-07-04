@@ -1,10 +1,7 @@
-<?php
-
-?>
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>recruiting</title>
+    <head>
+		<title>events</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -16,14 +13,15 @@
 		<div id="page-wrapper">
 
             <!--header-->
-            <?php include 'pagecontent/header.php'; ?>
+            <?php include 'header.php'; ?>
 
             <!--Main Content-- link to about.php it is located in the pagecontent folder-->
-            <?php include 'pagecontent/recruiting.php'?>
+            <?php include 'pagecontent/login_submit.php'?>
             
 			<!-- Footer  -->
-            <?php include 'pagecontent/footer.php'; ?>
+            <?php include 'footer.php'; ?>
 				
+
 		</div>
 
 		<!--Script-- can be found in the pagecontent folder script.php-->

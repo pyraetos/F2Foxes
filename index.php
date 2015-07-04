@@ -21,7 +21,7 @@
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
-            <?php include 'header.php'; ?>
+            <?php include 'pagecontent/header.php'; ?>
 			<!-- Main Wrapper -->
 				<div id="main-wrapper">
 					<div class="wrapper style1">
@@ -201,20 +201,13 @@
 				</div>
 
 			<!-- Footer  -->
-            <?php include 'footer.php'; ?>
+            <?php include 'pagecontent/footer.php'; ?>
             <!--end of Footer-->
 				
 		</div>
 
-		<!-- Scripts -->
-
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+		<!--Script-- can be found in the pagecontent folder script.php-->
+        <?php include 'pagecontent/script'?>
 
 	</body>
 </html>
