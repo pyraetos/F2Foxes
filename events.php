@@ -28,7 +28,7 @@
 		</div>
 
 		<!--Script-- can be found in the pagecontent folder script.php-->
-        <?php include 'pagecontent/script'?>
+        <?php include 'pagecontent/script.php'?>
 
 	</body>
 </html>

@@ -7,7 +7,7 @@
                         <!--Prevents Mobile Nav Bar From covering up content-->
                     <br></br>
                     <h1>Please Log In</h1>
-                    <form action= "login_submit.php" method="get"><!--method will have to be changed to post later on when we have a database set up-->
+                    <form action= "login_submit.php" method="post">
                     <p>
                     <label for="user">Username</label>
                     <input type="text" id="user" name="user" value="" maxlength="10" />
