@@ -2,7 +2,7 @@
 @import url("font-awesome.min.css");
 
 
-		/* Nav */
+		/* Nav This page is part of the main.css, but has a modification if a person is logged in so that the tabs at the top are smaller*/
 
 			#nav {
 				position: absolute;

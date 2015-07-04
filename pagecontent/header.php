@@ -4,7 +4,7 @@
 	<div class="container">
 <?php $loggedin=0?><!-- change this to 0 if you are not logged in and 1 if logged in corresponds to the header file were the files can be accessed-->
 <?php if ($loggedin){?>
-        <link rel="stylesheet" href="pagecss/header.css" />
+        <link rel="stylesheet" href="pagecss/header.css" /><!--changes the size of the tabs on the top-->
 <?php }?>
 		<!-- Header -->
 			<header id="header">

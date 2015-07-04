@@ -27,7 +27,7 @@
 
             <?php include 'pagecontent/home.php'?>
 			<!-- Footer  -->
-            <?php include 'pagecontect/footer.php'; ?>
+            <?php include 'pagecontent/footer.php'; ?>
             <!--end of Footer-->
 				
 		</div>
