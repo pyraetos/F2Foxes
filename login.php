@@ -15,7 +15,7 @@
 	<body class="no-sidebar">
 		<div id="page-wrapper">
 
-             <!--header-->
+            <!--header-->
             <?php include 'pagecontent/header.php'; ?>
 
             <!--Main Content-- link to about.php it is located in the pagecontent folder-->

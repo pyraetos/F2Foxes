@@ -1,14 +1,7 @@
-<?php
-
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title></title>
-    </head>
-    <body>
-        
-    </body>
-</html>
+<div>
+    <div>
+        <?php $user =filter_input(INPUT_GET, "user");
+        print "<h1> Hi, $user!<h1>";
+        ?>
+    </div>
+</div>
