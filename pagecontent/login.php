@@ -1,3 +1,4 @@
+
 <!-- Main Wrapper -->
 <div id="main-wrapper">
 	<div class="wrapper style2">
@@ -9,12 +10,12 @@
                     <h1>Please Log In</h1>
                     <form action= "login_submit.php" method="post">
                     <p>
-                    <label for="user">Username</label>
-                    <input type="text" id="user" name="user" value="" maxlength="10" />
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" value="" maxlength="10" />
                     </p>
                     <p>
-                    <label for="pass">Password</label>
-                    <input type="password" id="pass" name="pass" value="" maxlength="10" />
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" value="" maxlength="10" />
                     </p>
                     <p>
                     <input type="submit" value="Login" />

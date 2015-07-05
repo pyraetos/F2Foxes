@@ -1,0 +1,13 @@
+To begin for this to work you must have xampp and have phpmyadmin installed. 
+To get to the xampp main page type "localhost" into your browser. 
+It will open the main page can click phpmyadmin in the bottom left hand side of the screen.
+Here you will have the option to orange and change phpmyadmin.
+In order for this to work, Everyone must have the same database name/names. Within the individual database there are tables.
+These tables will have to be reloaded if people make changes and that will be important later on.
+
+For right not to make it simple we will have a database called f2foxes, this will house the users. 
+to upload tables to the datbase you can click import.Once there you will have to browse your computer for the new files, they will 
+be in the phpmyadmin folder to make it easy. The file is SQL and nothing else should be changed on the page.
+
+To upload a changed file(in that something in the table structure is changed)export it and make sure it is in SQL format. 
+Do not change anything else it may make it hard to reload it.  
