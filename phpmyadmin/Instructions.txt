@@ -11,3 +11,5 @@ be in the phpmyadmin folder to make it easy. The file is SQL and nothing else sh
 
 To upload a changed file(in that something in the table structure is changed)export it and make sure it is in SQL format. 
 Do not change anything else it may make it hard to reload it.  
+
+First table is users and I am in it. you will not be able to see my password, because its legit and I encrpted it, but it is "password".
