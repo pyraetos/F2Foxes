@@ -39,7 +39,7 @@
 								<li><a href="http://corps.tamu.edu/">Corps of Cadets Website</a></li>
 								<li><a href="http://www.tamu.edu/">Texas A&M website</a></li>
 								<li><a href="http://www.tamu.edu/future-students/index.html">Information for Future Students</a></li>
-								<li><a href="#">Consequat lorem phasellus</a></li>
+								<li><a href="http://armyrotc.tamu.edu/">Army ROTC</a></li>
 							</ul>
 						</section>
 

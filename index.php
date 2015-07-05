@@ -17,7 +17,11 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-        
+        <link rel="stylesheet" href="home/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="home/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="home/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="home/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="home/nivo-slider.css" type="text/css" media="screen" />
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
@@ -25,7 +29,7 @@
             <!--header-->
             <?php include 'pagecontent/header.php'; ?>
 
-            <?php include 'pagecontent/home.php'?>
+            <?php include 'home/home.php'?>
 			<!-- Footer  -->
             <?php include 'pagecontent/footer.php'; ?>
             <!--end of Footer-->
@@ -34,6 +38,12 @@
 
 		<!-- Scripts -->
         <?php include 'pagecontent/script.php'?>
-
+        <script type="text/javascript" src="home/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="home/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
 	</body>
 </html>
