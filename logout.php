@@ -1,12 +1,11 @@
-<?php
-   /* session_start();
-    $username=$_POST['username'];
-    $password=$_POST['password'];*/
-?>
+<?php 
+ session_start();
+session_destroy();
+  ?>
 <!DOCTYPE HTML>
 <html>
-    <head>
-		<title>events</title>
+	<head>
+		<title>signout</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -19,14 +18,16 @@
 
             <!--header-->
             <?php include 'pagecontent/header.php'; ?>
-
-            <!--Main Content-- link to about.php it is located in the pagecontent folder-->
-            <?php include 'pagecontent/login_submit.php'?>
-            
+            <div id="main-wrapper">
+	             <div class="wrapper style2">
+                     <?php
+                    echo "<h1><a href='index.php'>You've been logged out.Click here to return to the home menu.</a></h1>";
+                    ?>
+                  </div>
+            </div>
 			<!-- Footer  -->
             <?php include 'pagecontent/footer.php'; ?>
 				
-
 		</div>
 
 		<!--Script-- can be found in the pagecontent folder script.php-->

@@ -2,8 +2,8 @@
 <!-- Header -->
 <div id="header-wrapper">
 	<div class="container">
-<?php $loggedin=0?><!-- change this to 0 if you are not logged in and 1 if logged in corresponds to the header file were the files can be accessed-->
-<?php if ($loggedin){?>
+<?php session_start();
+if ($_SESSION ['username']){?>
         <link rel="stylesheet" href="pagecss/header.css" /><!--changes the size of the tabs on the top-->
 <?php }?>
 		<!-- Header -->
@@ -20,14 +20,19 @@
 								<li><a href="about.php">About Us</a></li>
                                 <li><a href="events.php">Events</a></li>
                                 <li><a href="recruiting.php">Join F-2</a></li>
-                                <?php if ($loggedin){?>
-                                
-                                <li><a href="grades.php">Grades</a></li>
-                                <li><a href="signout.php">Sign Out</a></li>
-                                <li><a href="training.php">Training</a></li>
-                                <?php }?>
+                                <li><a href="http://foxcompany.core-image.net/">Shop</a></li>
+
+                                <?php //session_start();
+                                if ($_SESSION ['username']){?>
+                                    <li><a href="grades.php">Grades</a></li>
+                                    <li><a href="signoutsheet.php">Signout Sheet</a></li>
+                                    <li><a href="training.php">Training</a></li>
+                                    <li><a href="logout.php">Log Out</a></li>
+                                <?php }else{?>
+
                                 <li><a href="login.php">Log In</a></li>
-                                <li><a href="signup.php">Sign Up</a></li>              
+                                <li><a href="register.php">Register</a></li>    
+                                <?php }?>          
 							</ul>
 						</nav>
 

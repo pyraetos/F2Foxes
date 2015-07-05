@@ -1,8 +1,10 @@
+<?php
 
+?>
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>sign up</title>
+		<title>events</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -17,11 +19,12 @@
             <?php include 'pagecontent/header.php'; ?>
 
             <!--Main Content-- link to about.php it is located in the pagecontent folder-->
-            <?php include 'pagecontent/signup.php'?>
+            <?php include 'pagecontent/signoutsheet.php'?>
             
 			<!-- Footer  -->
             <?php include 'pagecontent/footer.php'; ?>
 				
+
 		</div>
 
 		<!--Script-- can be found in the pagecontent folder script.php-->

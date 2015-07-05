@@ -1,5 +1,15 @@
 <!-- Main Wrapper -->
 <div id="main-wrapper">
+	<div class="wrapper style2">
+		<div class="inner">
+			<div class="container">
+				<div id="content">
+
+
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="wrapper style3">
 		<div class="inner">
 			<div class="container">

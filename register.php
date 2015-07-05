@@ -1,7 +1,8 @@
+
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>signout</title>
+		<title>sign up</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -16,7 +17,7 @@
             <?php include 'pagecontent/header.php'; ?>
 
             <!--Main Content-- link to about.php it is located in the pagecontent folder-->
-            <?php include 'pagecontent/signout.php'?>
+            <?php include 'pagecontent/register.php'?>
             
 			<!-- Footer  -->
             <?php include 'pagecontent/footer.php'; ?>

@@ -13,6 +13,8 @@
                    $username=strip_tags($_POST['username']);
                    $password=strip_tags($_POST['password']);
                    $passcheck=strip_tags($_POST['passcheck']);
+                   $email=strip_tags($_POST['email']);
+                   $phone=strip_tags($_POST['phone']);
                    $data=date("Y-m-d");
                    if ($submit)//begining of submit
                    {    
@@ -23,7 +25,7 @@
                        $count= mysql_num_rows($namecheck);//checks to see if there is a row with that username returns 1 if there is
            
                        //check that all blocks are filled out
-                       if($firstname &&$lastname && $username && $password && $passcheck )
+                       if($firstname &&$lastname && $username && $password && $passcheck &&$email)
                        {    
                            if($count==0)
                            {
@@ -70,7 +72,7 @@
                         <!--Prevents Mobile Nav Bar From covering up content-->
                     <br></br>
                     <h1>Wellcome to the Fox Company Website If you could please fill out the form and hit submit when you are done</h1>
-                    <form action= "signup.php" method="POST"><!--method will have to be changed to post later on when we have a database set up-->
+                    <form action= "register.php" method="POST"><!--method will have to be changed to post later on when we have a database set up-->
                     <!--first name--><p>
                         <label for="firstname">First Name</label>
                         <input type="text" id="firstname" name="firstname" value="<?php echo $firstname?>" maxlength="15" />
@@ -79,7 +81,7 @@
                         <label for="lastname">Last Name</label>
                         <input type="text" id="lastname" name="lastname" value="<?php echo $lastname?>" maxlength="15" />
                         </p>
-                     <!--Status-->
+                     <!--Status-- for now not included because we want to state what their classification is--><!--
                         <p>
                         <label for="status">What is your classification?</label>
                             <span>
@@ -94,7 +96,7 @@
                             <span>
                                 <input type="radio" name="status" value="Prospect">Prospect (a person wanting to join the corps)
                             </span>
-                        </p>
+                        </p>-->
                      <!--Email--><p>
                         <label for="email">Current email</label>
                         <input type="text" id="email" name="email" value="<?php echo $email?>" maxlength="30" />
@@ -103,10 +105,10 @@
                         <label for="phone">phone number we can reach you at(please enter in 122-232-3232 format)</label>
                         <input type="text" id="phone" name="phone" value="<?php echo $phone?>" maxlength="10" />
                         </p>
-                     <!--State--><p>
+                     <!--State--><!--<p>
                         <label for="state">state of residence</label>
                         <input type="text" id="state" name="state" value="<?php echo $state?>" maxlength="20" />
-                        </p>
+                        </p>-->
                      <!--username--><p>
                         <label for="username">username you would like</label>
                         <input type="text" id="username" name="username" value="<?php echo $username?>" maxlength="15" />
