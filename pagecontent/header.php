@@ -3,6 +3,7 @@
 <div id="header-wrapper">
 	<div class="container">
 <?php session_start();
+ $username=$_SESSION ['username'];
 if ($_SESSION ['username']){?>
         <link rel="stylesheet" href="pagecss/header.css" /><!--changes the size of the tabs on the top-->
 <?php }?>
@@ -10,8 +11,12 @@ if ($_SESSION ['username']){?>
 			<header id="header">
 				<div class="inner">
 
-					<!-- Logo -->
-						<h1><a href="index.php" id="logo">F-2 Foxes</a></h1>
+					<!-- Logo --><!--changes the logo once someone logs in-->
+                         <?php if ($_SESSION ['username']){?>
+						<h1><a href="index.php" id="logo"><?php echo "$username"?></a></h1>
+                         <?php }else{ ?> 
+                        <h1><a href="index.php" id="logo">F-2 Foxes</a></h1>
+                        <?php }?>
 
 					<!-- Nav -->
 						<nav id="nav">
