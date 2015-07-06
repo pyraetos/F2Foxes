@@ -48,11 +48,11 @@
                     <form action= "login.php" method="post">
                     <p>
                     <label for="username">Username</label>
-                    <input type="text" id="username" name="username" value="" maxlength="10" />
+                    <input type="text" id="username" name="username" value="" maxlength="20" />
                     </p>
                     <p>
                     <label for="password">Password</label>
-                    <input type="password" id="password" name="password" value="" maxlength="10" />
+                    <input type="password" id="password" name="password" value="" maxlength="20" />
                     </p>
                     <p>
                     <input type="submit" value="Login" />
