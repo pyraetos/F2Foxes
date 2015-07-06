@@ -4,7 +4,13 @@
 		<div class="inner">
 			<div class="container">
 				<div id="content">
-
+                    <div id="gradeMenu">
+                        <!--create the html structure for the grades interface-->
+                        <form                     
+                    
+                    
+                    
+                    </div>
 
 				</div>
 			</div>
@@ -16,8 +22,7 @@
 				<div class="row">
 					<div class="8u 12u(mobile)">
 					</div>
-                    <h1> Description of the past of fox company</h1>
-                    <p> Include some nice pictures of the crest and some current pictures</p>
+
 					<div class="4u 12u(mobile)">
 
 
