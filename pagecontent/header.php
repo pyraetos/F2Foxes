@@ -2,7 +2,7 @@
 <!-- Header -->
 <div id="header-wrapper">
 	<div class="container">
-<?php session_start();
+<?php 
  $username=$_SESSION ['username'];
 if ($_SESSION ['username']){?>
         <link rel="stylesheet" href="pagecss/header.css" /><!--changes the size of the tabs on the top-->

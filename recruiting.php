@@ -1,5 +1,5 @@
 <?php
-
+include 'boot/session.php'; 
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -19,7 +19,7 @@
             <?php include 'pagecontent/header.php'; ?>
 
             <!--Main Content-- link to about.php it is located in the pagecontent folder-->
-            <?php include 'pagecontent/recruiting.php'?>
+            <?php include 'pagecontent/recruiting/recruiting.php'?>
             
 			<!-- Footer  -->
             <?php include 'pagecontent/footer.php'; ?>
