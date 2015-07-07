@@ -49,7 +49,7 @@ $username=$_SESSION ['username'];
                       ?><td><input type="submit"  value="Submit Changes"></td>
             </tr>
             <tr>
-                    <th> Current signed out for</th>
+                    <th> Currently signed out for</th>
                     <?php for ($p=0;$p<$columns-1;$p++){?>
                         <td><img src="pagecontent/signout/reasonimages/RangerChallenge.png"  alt="auto" /></td>
                      <?php } ?>
