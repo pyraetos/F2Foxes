@@ -1,3 +1,6 @@
+<?php
+$username=$_SESSION ['username'];
+?>
 <!-- Main Wrapper -->
 <div id="main-wrapper">
 	<div class="wrapper style3">
@@ -25,12 +28,12 @@
                 ?>
             </tr>
             <tr > 
-                <td></td>
+                <th><?php echo "$username"?></th>
                 
                 <?php
                       $loopname="activities";
                       $selstack=array();
-                      $activities= array('','Army Training','Class','Corps Center Guard','Corps Soccer Team','Darling Recruiting Company','Fish Drill Team','IEEE','LAB','Parson Mounted Cavalry','Rec','Recon Platoon','Ross Volunteer Company','Rudders Rangers','Ranger Challenge','Study Group','Tutoring','Work');
+                      $activities= array('','Army Training','Cadet Performance Review Board','Class','Corps Center Guard','Corps Soccer Team','Darling Recruiting Company','Fish Drill Team','IEEE','LAB','Parson Mounted Cavalry','Rec','Recon Platoon','Ross Volunteer Company','Rudders Rangers','Ranger Challenge','Study Group','Tutoring','Work');
                       //$actimg=array('','','','','','','','','','','','','','','','','','','','','','','','','','','');
                        for ($k=0;$k<$columns-1;$k++) {
                            echo '<td class="styled_select">';
@@ -43,8 +46,25 @@
                            echo '</select>'; 
                            echo '</td>';
                        }
-                      ?><td><input type="submit" ></td>
+                      ?><td><input type="submit"  value="Submit Changes"></td>
             </tr>
+            <tr>
+                    <th> Current signed out for</th>
+                    <?php for ($p=0;$p<$columns-1;$p++){?>
+                        <td><img src="pagecontent/signout/reasonimages/RangerChallenge.png"  alt="auto" /></td>
+                     <?php } ?>
+            </tr>
+            <?php for ($i=0;$i<3;$i++){?>
+    
+                 <tr>
+                
+                    <th>user</th>
+                     <?php for ($p=0;$p<$columns-1;$p++){?>
+                        <td><img src="pagecontent/signout/reasonimages/class.png"  alt="auto" /></td>
+                     <?php } ?>
+                     
+                </tr>
+                 <?php }?>
             </table>
         </form>
 				</div>

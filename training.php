@@ -1,3 +1,6 @@
+<?php 
+include 'boot/session.php'; 
+?>
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -6,6 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="pagecontent/training/css/training.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -16,7 +20,7 @@
             <?php include 'pagecontent/header.php'; ?>
 
             <!--Main Content-- link to about.php it is located in the pagecontent folder-->
-            <?php include 'pagecontent/training.php'?>
+            <?php include 'pagecontent/training/training.php'?>
             
 			<!-- Footer  -->
             <?php include 'pagecontent/footer.php'; ?>

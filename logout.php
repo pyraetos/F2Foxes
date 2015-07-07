@@ -1,7 +1,7 @@
 <?php 
- session_start();
-session_destroy();
-  ?>
+    include 'boot/session.php'; 
+    session_destroy();
+?>
 <!DOCTYPE HTML>
 <html>
 	<head>
