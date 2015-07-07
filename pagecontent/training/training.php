@@ -1,19 +1,55 @@
 <!-- Main Wrapper -->
 <div id="main-wrapper">
 	<div class="wrapper style3">
-		<div class="inner">
-			<div class="container">
-				<div class="row">
-					<div class="8u 12u(mobile)">
-					</div>
-                    <h1> Goals Chain of Command and maybe some other stuff</h1>
-                    <p> Include some nice pictures of the crest and some current pictures</p>
-					<div class="4u 12u(mobile)">
-
-
-					</div>
-				</div>
-			</div>
-		</div>
+        <div id="training_page title">
+            <h1>Training Schedule for the week of </h1>
+        </div>
+         <form>
+             <table>
+                 <tr>
+                     <td class="description_column"></td>
+                     <th colspan="2">Monday</th>
+                     <th>Tuesday</th>
+                     <th>Wednesday</th>
+                     <th>Thursday</th>
+                     <th colspan="2">Friday</th>
+                     <th>Saturday</th>
+                     <th>Sunday</th>
+                 </tr>
+                 <tr>
+                     <td class="blank"></td>
+                 </tr>
+                 <tr class="training_rows">
+                     <th>Activity</th>
+                 </tr>
+                 <tr class="training_rows">
+                     <th>Time</th>
+                 </tr>
+                 <tr class="training_rows">
+                     <th>Uniform</th>
+                 </tr>
+                 <tr class="training_rows">
+                     <th>Location</th>
+                 </tr>
+                 <tr class="training_rows">
+                     <th>Purpose</th>
+                 </tr>
+                 <tr class="training_rows">
+                     <th>Trainer(s)</th>
+                 </tr>
+                 <tr class="training_rows">
+                     <th>Inclement Weather</th>
+                 </tr>
+                 <tr>
+                     <th>Gimp</th>
+                    
+                 </tr>
+                 <tr>
+                     <th></th>
+                 </tr>
+             </table>
+         </form>
+					
+				
 	</div>
 </div>
