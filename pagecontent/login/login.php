@@ -58,7 +58,7 @@
                     <input type="submit" value="Login" />
                     </p>
                     </fieldset>
-                    </form><p><a href="register.php">Not Register? Click here.</a></p>
+                    </form><p><a href="register.php">Not Registered? Click here.</a></p>
 
 				</div>
 			</div>
