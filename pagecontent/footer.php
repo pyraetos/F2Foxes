@@ -67,7 +67,7 @@
 											<dt>Twitter</dt>
 											<dd><a href="#">@untitled-corp</a></dd>
 											<dt>Facebook</dt>
-											<dd><a href="https://www.facebook.com/TexasAmCorpsOfCadetsCompanyF2Foxes">Fox Company</a></dd>
+											<dd><a href="https://www.facebook.com/pages/Company-I-1-Texas-AM-Corps-of-Cadets/1399376650292571">Company I-1</a></dd>
 											<dt>WWW</dt>
 											<dd><a href="#">untitled.tld</a></dd>
 											<dt>Email</dt>

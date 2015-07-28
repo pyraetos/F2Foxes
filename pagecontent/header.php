@@ -15,7 +15,7 @@ if ($_SESSION ['username']){?>
                          <?php if ($_SESSION ['username']){?>
 						<h1><a href="index.php" id="logo"><?php echo "$username"?></a></h1>
                          <?php }else{ ?> 
-                        <h1><a href="index.php" id="logo">F-2 Foxes</a></h1>
+                        <h1><a href="index.php" id="logo">Red Eye One</a></h1>
                         <?php }?>
 
 					<!-- Nav -->
@@ -24,7 +24,7 @@ if ($_SESSION ['username']){?>
 								<li ><a href="index.php">Home</a></li>				
 								<li><a href="about.php">About Us</a></li>
                                 <li><a href="events.php">Events</a></li>
-                                <li><a href="recruiting.php">Join F-2</a></li>
+                                <li><a href="recruiting.php">Join I-1</a></li>
                                 <li><a href="http://foxcompany.core-image.net/">Shop</a></li>
 
                                 <?php //session_start();

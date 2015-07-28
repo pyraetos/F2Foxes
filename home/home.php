@@ -8,15 +8,17 @@
 					<div class="row">
 						<div class="12u">
 							<header class="first major">
-								<h2><img src="images/favicon.ico" class="faviconhome"alt="auto">Fox Company<img src="images/favicon.ico" class="faviconhome" alt="auto"></h2>
-								<p><strong>Where Cadets Become Leaders</strong> </p>
+								<h2><img src="images/favicon.ico" class="faviconhome"alt="auto">Company I-1<img src="images/favicon.ico" class="faviconhome" alt="auto"></h2>
+								<p><strong>Never Say Die</strong> </p>
 							</header>
 						</div>
 					</div>
                         <div class="slider-wrapper theme-default">
                             <div id="slider" class="nivoSlider">
-                                <img src="home/images/F-2CompanySpring2015.jpg" data-thumb="home/images/F-2CompanySpring2015.jpg" alt="auto" />
+                                <img src="home/images/RuddersI-1Guidons.jpg" data-thumb="home/images/RuddersI-1Guidons.jpg" alt="auto" />
+                                <img src="home/images/Ruck.jpg" data-thumb="home/images/Ruck.jpg" alt="auto" />
                                 <img src="home/images/Corps.jpg" data-thumb="home/images/Corps.jpg" alt="auto" />
+                                <img src="home/images/MarchInFall2014.jpg" data-thumb="home/images/MarchInFall2014.jpg" alt="auto" />
                                 <!--<img src="home/images/toystory.jpg" data-thumb="home/images/toystory.jpg" alt="auto" />
                                 <a href="http://dev7studios.com"><img src="home/images/up.jpg" data-thumb="home/images/up.jpg" alt="auto" title="This is an example of a caption" /></a>
                                 <img src="home/images/walle.jpg" data-thumb="home/images/walle.jpg" alt="auto" data-transition="slideInLeft" />
@@ -29,10 +31,10 @@
 					<div class="row">
 						<div class="4u 12u(mobile)">
 							<section>
-								<a href="https://youtu.be/jofNR_WkoCE" class="image featured"><img src="images/pic01.jpg" alt="auto" /></a>
+								<a href="http://youtu.be/oHNtpkeXPJ8" class="image featured"><img src="images/pic01.jpg" alt="auto" /></a>
 								<header class="second icon fa-user">
-									<h3>Here's a Heading</h3>
-									<p>And a subtitle</p>
+									<h3>Fraulein</h3>
+									<p>by Bobby Helms</p>
 								</header>
 							</section>
 						</div>
@@ -77,26 +79,26 @@
 							<section>
 								<header class="major">
 									<h2>Get Conected!</h2>
-									<p>F-2 is always looking for support and involvement</p>
+									<p>I-1 is always looking for support and involvement</p>
 								</header>
-								<p>Currently f-2 is working on feugiat sit amet ornare in, hendrerit in lectus.
+								<p>Currently I-1 is working on feugiat sit amet ornare in, hendrerit in lectus.
 								Praesent semper mod quis eget mi. Etiam eu ant risus. Aliquam erat volutpat.
 								Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
 								consequat etiam.</p>
 								<footer>
-									<a href="" class="button medium icon fa-arrow-circle-right">Let's do this</a>
+									<a href="" class="button medium icon fa-arrow-circle-right">Oh yeah baby</a>
 								</footer>
 							</section>
 						</div>
 						<div class="6u 12u(mobile)">
 							<section>
 								<header class="major">
-									<h2>Represent F-2</h2>
-									<p>wear clothing that resperesents a redass outfit</p>
+									<h2>Represent I-1</h2>
+									<p>Wear clothing that resperesents a redass outfit</p>
 								</header>
-								<p>The Fox Company Store houses all fox items for cadets and parents. If your looking to walk around and represent a redass outfit click the button. </p>
+								<p>Our public relations chain has produced some awesome I-1 apparel. If you're looking to walk around and represent a redass outfit click the button. </p>
 								<footer>
-									<a href="http://foxcompany.core-image.net/" class="button medium alt icon fa-info-circle">FOX COMPANY STORE</a>
+									<a href="http://tinyurl.com/o99xu3m" class="button medium alt icon fa-info-circle">ORD ORD CLOTHING</a>
 								</footer>
 							</section>
 						</div>
