@@ -1,0 +1,71 @@
+<!-- Main Wrapper -->
+<div id="main-wrapper">
+	<div class="wrapper style2">
+		<div class="inner">
+			<div class="container">
+				<div id="content">
+                 
+                        <!--Prevents Mobile Nav Bar From covering up content-->
+                    <br></br>
+                    <h1>Wellcome to the Fox Company Website If you could please fill out the form and hit submit when you are done</h1>
+                    <form action= "login_submit.php" method="POST"><!--method will have to be changed to post later on when we have a database set up-->
+                    <!--first name-->
+                        <table><tr>
+                        <td><label for="firstname">First Name</label></td>
+                        <td><input type="text" id="firstname" name="firstname" value="<?php echo $firstname?>" maxlength="15" /></td>
+                        </tr>
+                    <!--Last name--> <tr>
+                        <td><label for="lastname">Last Name</label></td>
+                        <td><input type="text" id="lastname" name="lastname" value="<?php echo $lastname?>" maxlength="15" /></td>
+                        </tr>
+                     <!--Status-->
+                        <tr>
+                        <td><label for="status">What is your classification?</label></td>
+                            <td><span>
+                                <input type="radio" name="status" value="Student">Student
+                            </span></td>
+                            <td><span>
+                                <input type="radio" name="status" value="Parent">Parent
+                            </span></td>
+                            <td><span>
+                                <input type="radio" name="status" value="OldFox">Old Fox
+                            </span></td>
+                            <td><span>
+                                <input type="radio" name="status" value="Prospect">Prospect (a person wanting to join the corps)
+                            </span></td>
+                        </tr>
+                     <!--Email--><tr>
+                        <td><label for="email">Current email</label></td>
+                        <td><input type="text" id="email" name="email" value="<?php echo $email?>" maxlength="30" /></td>
+                        </tr>
+                     <!--Phone--><tr>
+                        <td><label for="phone">phone number we can reach you at(please enter in 122-232-3232 format)</label></td>
+                        <td><input type="text" id="phone" name="phone" value="<?php echo $phone?>" maxlength="10" /></td>
+                        </p>
+                     <!--State--><tr>
+                        <td><label for="state">state of residence</label></td>
+                        <td><input type="text" id="state" name="state" value="<?php echo $state?>" maxlength="20" /></td>
+                        </tr>
+                     <!--username--><tr>
+                        <td><label for="username">username you would like</label></td>
+                        <td><input type="text" id="username" name="username" value="<?php echo $username?>" maxlength="15" /></td>
+                        </tr>
+                     <!--Password--><tr>
+                        <td><label for="password">password you would like</label></td>
+                        <td><input type="password" id="password" name="password" value="<?php echo $password?>" maxlength="15" /></td>
+                        </tr>
+                        <tr>
+                        <td><label for="passcheck">please enter your password again</label></td>
+                        <td><input type="password" id="passcheck" name="passcheck" value="<?php echo $passcheck?>" maxlength="15" /></td>
+                        </tr>
+                    <tr>
+                    <td><input type="submit" name="submit" value="register" /></td>
+                    </tr>
+                        </table>
+                    </form>
+
+				</div>
+			</div>
+		</div>
+	</div>>
+</div>

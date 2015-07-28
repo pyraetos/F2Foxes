@@ -1,0 +1,17 @@
+.styled_select{
+                background:#f00;
+                width: 50px;
+                font-size: 14px;
+                
+            }
+.styled_select select{
+    background:#ffd800;
+    width: 40px;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 1px;
+    height: 34px;
+    -webkit-appearance: none;
+}
